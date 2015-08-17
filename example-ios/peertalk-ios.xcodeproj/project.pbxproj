@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2E8E351527411E001B90E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E341527411E001B90E4 /* Default@2x.png */; };
+		6A2E8E371527451D001B90E4 /* Icon-144@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E361527451D001B90E4 /* Icon-144@2x.png */; };
+		6A2E8E39152745EF001B90E4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E38152745EF001B90E4 /* Icon-72.png */; };
+		6A2E8E3B1527467E001B90E4 /* Icon-114@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E3A1527467E001B90E4 /* Icon-114@2x.png */; };
+		6A4010D715275E5400EF0E92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4010D615275E5400EF0E92 /* UIKit.framework */; };
+		6A4010D915275E9600EF0E92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4010D815275E9600EF0E92 /* CoreGraphics.framework */; };
+		6A64AAE61526050D0065BF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0A056E150DB1C10014D424 /* Foundation.framework */; };
+		6A64AAEE1526050D0065BF86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A64AAEC1526050D0065BF86 /* InfoPlist.strings */; };
+		6A64AAF01526050D0065BF86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A64AAEF1526050D0065BF86 /* main.m */; };
+		6A88FA34150D613800FC3647 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A88FA33150D613800FC3647 /* Cocoa.framework */; };
+		9A878EE81B78CE5D0082B703 /* PeerTalkWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878ED41B78CE5D0082B703 /* PeerTalkWrapper.h */; };
+		9A878EE91B78CE5D0082B703 /* PeerTalkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878ED51B78CE5D0082B703 /* PeerTalkWrapper.m */; };
+		9A878EEA1B78CE5D0082B703 /* PeerTalkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878ED51B78CE5D0082B703 /* PeerTalkWrapper.m */; };
+		9A878EEB1B78CE5D0082B703 /* PTExampleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878ED61B78CE5D0082B703 /* PTExampleProtocol.h */; };
+		9A878EEC1B78CE5D0082B703 /* PTAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878ED71B78CE5D0082B703 /* PTAppDelegate.h */; };
+		9A878EED1B78CE5D0082B703 /* PTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878ED81B78CE5D0082B703 /* PTViewController.h */; };
+		9A878EEE1B78CE5D0082B703 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878ED91B78CE5D0082B703 /* TestViewController.h */; };
+		9A878EEF1B78CE5D0082B703 /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EDA1B78CE5D0082B703 /* PTAppDelegate.m */; };
+		9A878EF01B78CE5D0082B703 /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EDA1B78CE5D0082B703 /* PTAppDelegate.m */; };
+		9A878EF11B78CE5D0082B703 /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EDB1B78CE5D0082B703 /* PTViewController.m */; };
+		9A878EF21B78CE5D0082B703 /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EDB1B78CE5D0082B703 /* PTViewController.m */; };
+		9A878EF31B78CE5D0082B703 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EDC1B78CE5D0082B703 /* TestViewController.m */; };
+		9A878EF41B78CE5D0082B703 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EDC1B78CE5D0082B703 /* TestViewController.m */; };
+		9A878EFE1B78CF000082B703 /* prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9A878EF61B78CF000082B703 /* prefix.pch */; };
+		9A878EFF1B78CF000082B703 /* PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878EF71B78CF000082B703 /* PTChannel.h */; };
+		9A878F001B78CF000082B703 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EF81B78CF000082B703 /* PTChannel.m */; };
+		9A878F011B78CF000082B703 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EF81B78CF000082B703 /* PTChannel.m */; };
+		9A878F021B78CF000082B703 /* PTPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878EF91B78CF000082B703 /* PTPrivate.h */; };
+		9A878F031B78CF000082B703 /* PTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878EFA1B78CF000082B703 /* PTProtocol.h */; };
+		9A878F041B78CF000082B703 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EFB1B78CF000082B703 /* PTProtocol.m */; };
+		9A878F051B78CF000082B703 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EFB1B78CF000082B703 /* PTProtocol.m */; };
+		9A878F061B78CF000082B703 /* PTUSBHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A878EFC1B78CF000082B703 /* PTUSBHub.h */; };
+		9A878F071B78CF000082B703 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EFD1B78CF000082B703 /* PTUSBHub.m */; };
+		9A878F081B78CF000082B703 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A878EFD1B78CF000082B703 /* PTUSBHub.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A0A056E150DB1C10014D424 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A2E8E341527411E001B90E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6A2E8E361527451D001B90E4 /* Icon-144@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144@2x.png"; sourceTree = "<group>"; };
+		6A2E8E38152745EF001B90E4 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		6A2E8E3A1527467E001B90E4 /* Icon-114@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114@2x.png"; sourceTree = "<group>"; };
+		6A2E8E3E15274F8E001B90E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A4010D615275E5400EF0E92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A4010D815275E9600EF0E92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		6A64AAE21526050D0065BF86 /* Peertalk iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peertalk iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A64AAEB1526050D0065BF86 /* Peertalk iOS Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peertalk iOS Example-Info.plist"; sourceTree = "<group>"; };
+		6A64AAED1526050D0065BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A64AAEF1526050D0065BF86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A64AAF11526050D0065BF86 /* Peertalk iOS Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peertalk iOS Example-Prefix.pch"; sourceTree = "<group>"; };
+		6A88FA30150D613800FC3647 /* libpeertalk-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libpeertalk-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A88FA33150D613800FC3647 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6A88FA36150D613800FC3647 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6A88FA37150D613800FC3647 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6A88FA38150D613800FC3647 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A88FA45150D613800FC3647 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9A878ED41B78CE5D0082B703 /* PeerTalkWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerTalkWrapper.h; sourceTree = "<group>"; };
+		9A878ED51B78CE5D0082B703 /* PeerTalkWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerTalkWrapper.m; sourceTree = "<group>"; };
+		9A878ED61B78CE5D0082B703 /* PTExampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExampleProtocol.h; sourceTree = "<group>"; };
+		9A878ED71B78CE5D0082B703 /* PTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTAppDelegate.h; path = src/PTAppDelegate.h; sourceTree = "<group>"; };
+		9A878ED81B78CE5D0082B703 /* PTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTViewController.h; path = src/PTViewController.h; sourceTree = "<group>"; };
+		9A878ED91B78CE5D0082B703 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = src/TestViewController.h; sourceTree = "<group>"; };
+		9A878EDA1B78CE5D0082B703 /* PTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTAppDelegate.m; path = src/PTAppDelegate.m; sourceTree = "<group>"; };
+		9A878EDB1B78CE5D0082B703 /* PTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTViewController.m; path = src/PTViewController.m; sourceTree = "<group>"; };
+		9A878EDC1B78CE5D0082B703 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = src/TestViewController.m; sourceTree = "<group>"; };
+		9A878EF61B78CF000082B703 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		9A878EF71B78CF000082B703 /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
+		9A878EF81B78CF000082B703 /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		9A878EF91B78CF000082B703 /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
+		9A878EFA1B78CF000082B703 /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocol.h; sourceTree = "<group>"; };
+		9A878EFB1B78CF000082B703 /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocol.m; sourceTree = "<group>"; };
+		9A878EFC1B78CF000082B703 /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUSBHub.h; sourceTree = "<group>"; };
+		9A878EFD1B78CF000082B703 /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A64AADF1526050D0065BF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4010D915275E9600EF0E92 /* CoreGraphics.framework in Frameworks */,
+				6A4010D715275E5400EF0E92 /* UIKit.framework in Frameworks */,
+				6A64AAE61526050D0065BF86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A88FA2D150D613800FC3647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A88FA34150D613800FC3647 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A64AAE91526050D0065BF86 /* Peertalk iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				9A878ECA1B78CE5D0082B703 /* PeerTalk */,
+				9A878F091B78CF430082B703 /* AppDelegate */,
+				9A878ED81B78CE5D0082B703 /* PTViewController.h */,
+				9A878EDB1B78CE5D0082B703 /* PTViewController.m */,
+				9A878ED91B78CE5D0082B703 /* TestViewController.h */,
+				9A878EDC1B78CE5D0082B703 /* TestViewController.m */,
+				6A64AAEA1526050D0065BF86 /* Supporting Files */,
+			);
+			path = "Peertalk iOS Example";
+			sourceTree = "<group>";
+		};
+		6A64AAEA1526050D0065BF86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A2E8E3A1527467E001B90E4 /* Icon-114@2x.png */,
+				6A2E8E361527451D001B90E4 /* Icon-144@2x.png */,
+				6A2E8E38152745EF001B90E4 /* Icon-72.png */,
+				6A2E8E341527411E001B90E4 /* Default@2x.png */,
+				6A64AAEB1526050D0065BF86 /* Peertalk iOS Example-Info.plist */,
+				6A64AAEC1526050D0065BF86 /* InfoPlist.strings */,
+				6A64AAEF1526050D0065BF86 /* main.m */,
+				6A64AAF11526050D0065BF86 /* Peertalk iOS Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A88FA25150D613800FC3647 = {
+			isa = PBXGroup;
+			children = (
+				9A878EF51B78CF000082B703 /* peertalk */,
+				6A64AAE91526050D0065BF86 /* Peertalk iOS Example */,
+				6A88FA32150D613800FC3647 /* Frameworks */,
+				6A88FA31150D613800FC3647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A88FA31150D613800FC3647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A88FA30150D613800FC3647 /* libpeertalk-ios.a */,
+				6A64AAE21526050D0065BF86 /* Peertalk iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A88FA32150D613800FC3647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A4010D815275E9600EF0E92 /* CoreGraphics.framework */,
+				6A4010D615275E5400EF0E92 /* UIKit.framework */,
+				6A2E8E3E15274F8E001B90E4 /* QuartzCore.framework */,
+				6A88FA33150D613800FC3647 /* Cocoa.framework */,
+				6A88FA45150D613800FC3647 /* SenTestingKit.framework */,
+				6A0A056E150DB1C10014D424 /* Foundation.framework */,
+				6A88FA35150D613800FC3647 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A88FA35150D613800FC3647 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A88FA36150D613800FC3647 /* AppKit.framework */,
+				6A88FA37150D613800FC3647 /* CoreData.framework */,
+				6A88FA38150D613800FC3647 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9A878ECA1B78CE5D0082B703 /* PeerTalk */ = {
+			isa = PBXGroup;
+			children = (
+				9A878ED41B78CE5D0082B703 /* PeerTalkWrapper.h */,
+				9A878ED51B78CE5D0082B703 /* PeerTalkWrapper.m */,
+				9A878ED61B78CE5D0082B703 /* PTExampleProtocol.h */,
+			);
+			name = PeerTalk;
+			path = src/PeerTalk;
+			sourceTree = "<group>";
+		};
+		9A878EF51B78CF000082B703 /* peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				9A878EF61B78CF000082B703 /* prefix.pch */,
+				9A878EF71B78CF000082B703 /* PTChannel.h */,
+				9A878EF81B78CF000082B703 /* PTChannel.m */,
+				9A878EF91B78CF000082B703 /* PTPrivate.h */,
+				9A878EFA1B78CF000082B703 /* PTProtocol.h */,
+				9A878EFB1B78CF000082B703 /* PTProtocol.m */,
+				9A878EFC1B78CF000082B703 /* PTUSBHub.h */,
+				9A878EFD1B78CF000082B703 /* PTUSBHub.m */,
+			);
+			name = peertalk;
+			path = "Peertalk iOS Example/peertalk";
+			sourceTree = "<group>";
+		};
+		9A878F091B78CF430082B703 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9A878ED71B78CE5D0082B703 /* PTAppDelegate.h */,
+				9A878EDA1B78CE5D0082B703 /* PTAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A88FA2E150D613800FC3647 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A878F021B78CF000082B703 /* PTPrivate.h in Headers */,
+				9A878EED1B78CE5D0082B703 /* PTViewController.h in Headers */,
+				9A878EEC1B78CE5D0082B703 /* PTAppDelegate.h in Headers */,
+				9A878F061B78CF000082B703 /* PTUSBHub.h in Headers */,
+				9A878EEE1B78CE5D0082B703 /* TestViewController.h in Headers */,
+				9A878F031B78CF000082B703 /* PTProtocol.h in Headers */,
+				9A878EFE1B78CF000082B703 /* prefix.pch in Headers */,
+				9A878EEB1B78CE5D0082B703 /* PTExampleProtocol.h in Headers */,
+				9A878EFF1B78CF000082B703 /* PTChannel.h in Headers */,
+				9A878EE81B78CE5D0082B703 /* PeerTalkWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A64AAE11526050D0065BF86 /* Peertalk iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A64AAFE1526050D0065BF86 /* Build configuration list for PBXNativeTarget "Peertalk iOS Example" */;
+			buildPhases = (
+				6A64AADE1526050D0065BF86 /* Sources */,
+				6A64AADF1526050D0065BF86 /* Frameworks */,
+				6A64AAE01526050D0065BF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Peertalk iOS Example";
+			productName = "Peertalk iOS Example";
+			productReference = 6A64AAE21526050D0065BF86 /* Peertalk iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A88FA2F150D613800FC3647 /* peertalk-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A88FA56150D613800FC3647 /* Build configuration list for PBXNativeTarget "peertalk-ios" */;
+			buildPhases = (
+				6A88FA2C150D613800FC3647 /* Sources */,
+				6A88FA2D150D613800FC3647 /* Frameworks */,
+				6A88FA2E150D613800FC3647 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "peertalk-ios";
+			productName = rusbhub;
+			productReference = 6A88FA30150D613800FC3647 /* libpeertalk-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A88FA27150D613800FC3647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0640;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6A88FA2A150D613800FC3647 /* Build configuration list for PBXProject "peertalk-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A88FA25150D613800FC3647;
+			productRefGroup = 6A88FA31150D613800FC3647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A88FA2F150D613800FC3647 /* peertalk-ios */,
+				6A64AAE11526050D0065BF86 /* Peertalk iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A64AAE01526050D0065BF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A64AAEE1526050D0065BF86 /* InfoPlist.strings in Resources */,
+				6A2E8E351527411E001B90E4 /* Default@2x.png in Resources */,
+				6A2E8E371527451D001B90E4 /* Icon-144@2x.png in Resources */,
+				6A2E8E39152745EF001B90E4 /* Icon-72.png in Resources */,
+				6A2E8E3B1527467E001B90E4 /* Icon-114@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A64AADE1526050D0065BF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A64AAF01526050D0065BF86 /* main.m in Sources */,
+				9A878F011B78CF000082B703 /* PTChannel.m in Sources */,
+				9A878F081B78CF000082B703 /* PTUSBHub.m in Sources */,
+				9A878EF21B78CE5D0082B703 /* PTViewController.m in Sources */,
+				9A878EF01B78CE5D0082B703 /* PTAppDelegate.m in Sources */,
+				9A878EF41B78CE5D0082B703 /* TestViewController.m in Sources */,
+				9A878EEA1B78CE5D0082B703 /* PeerTalkWrapper.m in Sources */,
+				9A878F051B78CF000082B703 /* PTProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A88FA2C150D613800FC3647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A878F071B78CF000082B703 /* PTUSBHub.m in Sources */,
+				9A878EF11B78CE5D0082B703 /* PTViewController.m in Sources */,
+				9A878EEF1B78CE5D0082B703 /* PTAppDelegate.m in Sources */,
+				9A878EF31B78CE5D0082B703 /* TestViewController.m in Sources */,
+				9A878F001B78CF000082B703 /* PTChannel.m in Sources */,
+				9A878EE91B78CE5D0082B703 /* PeerTalkWrapper.m in Sources */,
+				9A878F041B78CF000082B703 /* PTProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A64AAEC1526050D0065BF86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A64AAED1526050D0065BF86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A64AAFF1526050D0065BF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peertalk iOS Example/Peertalk iOS Example-Prefix.pch";
+				INFOPLIST_FILE = "Peertalk iOS Example/Peertalk iOS Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A64AB001526050D0065BF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peertalk iOS Example/Peertalk iOS Example-Prefix.pch";
+				INFOPLIST_FILE = "Peertalk iOS Example/Peertalk iOS Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A88FA54150D613800FC3647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6A88FA55150D613800FC3647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6A88FA57150D613800FC3647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = peertalk/prefix.pch;
+				PRODUCT_NAME = "peertalk-ios";
+			};
+			name = Debug;
+		};
+		6A88FA58150D613800FC3647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = peertalk/prefix.pch;
+				PRODUCT_NAME = "peertalk-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A64AAFE1526050D0065BF86 /* Build configuration list for PBXNativeTarget "Peertalk iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A64AAFF1526050D0065BF86 /* Debug */,
+				6A64AB001526050D0065BF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A88FA2A150D613800FC3647 /* Build configuration list for PBXProject "peertalk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A88FA54150D613800FC3647 /* Debug */,
+				6A88FA55150D613800FC3647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A88FA56150D613800FC3647 /* Build configuration list for PBXNativeTarget "peertalk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A88FA57150D613800FC3647 /* Debug */,
+				6A88FA58150D613800FC3647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A88FA27150D613800FC3647 /* Project object */;
+}
